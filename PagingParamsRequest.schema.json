@@ -1,5 +1,5 @@
 {
-  "$id": "/schemas/shared/PagingParamsRequest.schema",
+  "$id": "/pagingParamsRequest.schema",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "title": "PagingParamsRequest",
