@@ -1,11 +1,11 @@
 {
-  "$id": "/pagedListRequest.schema",
+  "$id": "https://raw.githubusercontent.com/mhajhammami/digiape/main/pagedListRequest.schema",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "title": "PagedListRequest",
   "description": "Represents a request query parameter object for a paged list.",
   "properties": {
-    "Params": { "$ref": "/pagingParamsRequest.schema" }
+    "Params": { "$ref": "https://raw.githubusercontent.com/mhajhammami/digiape/main/pagingParamsRequest.schema" }
   },
   "required": [ "Params" ],
   "additionalProperties": false
