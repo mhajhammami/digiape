@@ -1,11 +1,11 @@
 {
-  "$id": "/schemas/shared/pagedListRequest.schema",
+  "$id": "/pagedListRequest.schema",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "title": "PagedListRequest",
   "description": "Represents a request query parameter object for a paged list.",
   "properties": {
-    "Params": { "$ref": "/schemas/shared/pagingParamsRequest.schema" }
+    "Params": { "$ref": "/pagingParamsRequest.schema" }
   },
   "required": [ "Params" ],
   "additionalProperties": false
