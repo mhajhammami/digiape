@@ -1,5 +1,5 @@
 {
-  "$id": "/pagingParamsRequest.schema",
+  "$id": "https://raw.githubusercontent.com/mhajhammami/digiape/main/pagingParamsRequest.schema",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "title": "PagingParamsRequest",
