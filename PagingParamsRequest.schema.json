@@ -1,0 +1,21 @@
+{
+  "$id": "/schemas/shared/PagingParamsRequest.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "PagingParamsRequest",
+  "description": "Parameters related to requested pagination.",
+  "properties": {
+    "Current": {
+      "type": "number",
+      "description": "The requested page number.",
+      "minimum": 0
+    },
+    "PageSize": {
+      "type": "number",
+      "description": "The number of records per page.",
+      "minimum": 0
+    }
+  },
+  "required": [ "Current", "PageSize" ],
+  "additionalProperties": false
+}
